@@ -1,14 +1,14 @@
-<html>
-  <head>
-    <title>Delayed response test page</title>
-  </head>
-  <body>
-    <?php
-      date_default_timezone_set('UTC');
-      echo "<p>Time:".date(DATE_RFC2822);
-      sleep(5);
-      echo "sleep complete".date(DATE_RFC2822);
-      echo "</p>";
-    ?>
-  </body>
-</html>
+<?php
+  date_default_timezone_set('UTC');
+
+  print "<html>\n\t<head>\n";
+  print "<title>".__FILE__."</title>\n";
+  print "\n</head>\n<body>\n";
+
+  echo "<p>Time:".date(DATE_RFC2822);
+  sleep(5);
+  echo "sleep complete".date(DATE_RFC2822);
+  echo "</p>";
+  
+  print "\n\t</body>\n</html>";
+?>
