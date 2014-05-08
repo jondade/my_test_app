@@ -15,10 +15,17 @@
   print "<title>".__FILE__."</title>\n";
   print "\n</head>\n<body>\n";
 
-  print "<p>\n"
+  print "<p>\n";
   foreach($_POST as $name => $value) {
     print "$name : $value<br>";
   }
-  print "</p>\n"
+  print "</p>\n";
+
+  print "<p>\n";
+  foreach($_GET as $name => $value) {
+    print "$name : $value<br>";
+  }
+  print "</p>\n";
+
   print "\n\t</body>\n</html>";
 ?>
