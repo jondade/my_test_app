@@ -6,7 +6,7 @@
   print "\n</head>\n<body>\n";
 
   echo "<p>Time:".date(DATE_RFC2822);
-  sleep(5);
+  sleep((int)$_GET['time']);
   echo "sleep complete".date(DATE_RFC2822);
   echo "</p>";
   
