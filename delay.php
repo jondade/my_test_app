@@ -1,5 +1,6 @@
 <?php
   date_default_timezone_set('UTC');
+  header(Cache-Control: max-age=20);
 
   print "<html>\n\t<head>\n";
   print "<title>".__FILE__."</title>\n";
