@@ -2,7 +2,7 @@
 
   date_default_timezone_set('UTC');
   if (! empty($_GET["Expires"])){
-    $exp_date = gmdate('D, d M Y H:i:s GMT', time() + $_GET['Expires'])
+    $exp_date = gmdate('D, d M Y H:i:s GMT', time() + $_GET['Expires']);
     header("Expires: ".$exp_date);
   }
   if (! empty($_GET["Cache-Control"])){

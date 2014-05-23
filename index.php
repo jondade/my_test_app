@@ -4,8 +4,8 @@
   </head>
   <body>
     <?php
-      echo "This is the test page";
-      var_dump($_Env);
+      echo "<p>This is the test page</p>\n";
+      var_dump($_ENV);
       print("\n\n");
       phpinfo();
     ?>
