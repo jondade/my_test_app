@@ -1,7 +1,5 @@
-'monitoring'@'localhost' / 'm0nit0r_Th15'
-
 <?php
-	$con = new mysqli('localhost', 'monitoring', 'm0nit0r_Th15');
+	$con = new mysqli('db.jdade.me.uk', 'monitoring', 'm0nit0r_Th15');
 
 	if ($con->connect_errno > 0){
 		header($_SERVER["SERVER_PROTOCOL"]." 488 What database");
