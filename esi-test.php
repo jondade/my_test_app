@@ -11,7 +11,7 @@
 		<p>The esi is inserted between here...</p>
 		<br />
 		<br />
-		<esi:inlcude src='www.jdade.me.uk/mytest.esi' />
+		<esi:include src='www.jdade.me.uk/mytest.esi' />
 		<br />
 		<br />
 	</body>
