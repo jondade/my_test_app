@@ -33,7 +33,7 @@
       break;
     default:
       // do stuff
-      header("HTTP/1.1 501 Not Implemented");
+      header("HTTP 1.1 501 Not Implemented");
       header("Cache-Control: private, no-store, no-cache");
       print "Unsupported method: ".$verb;."\n";
       break;
