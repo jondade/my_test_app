@@ -27,6 +27,7 @@
       break;
     case "PUT":
       // do stuff
+      do_delete();
       break;
     case "POST":
       // do stuff
