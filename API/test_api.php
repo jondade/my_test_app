@@ -18,6 +18,7 @@
   };
 
   header("Content-type: application/json");
+  header("Cache-control: s-maxage=86400, maxage=30");
 
   $verb = $_SERVER['REQUEST_METHOD'];
   switch($verb){
