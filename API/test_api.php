@@ -1,20 +1,20 @@
 <?php
   
   function do_read(){
-    print "{stuff:\"exists\"}";
+    print "{stuff:\"exists\"}\n";
   };
 
   function do_update(){
 
-    print "{stuff:\"updated\"}";
+    print "{stuff:\"updated\"}\n";
   };
 
   function do_delete(){
-    print "{stuff:\"gone\"}";
+    print "{stuff:\"gone\"}\n";
   };
 
   function do_create(){
-    print "{stuff:\"new stuff\"}";
+    print "{stuff:\"new stuff\"}\n";
   };
 
   header("Content-type: application/json");
