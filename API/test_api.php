@@ -16,7 +16,9 @@
 
   };
 
-  $verb = $_SERVER['HTTP_X_METHOD'];
+  $verb = $_SERVER['HTTP_X_HTTP_METHOD'];
+
+  print "Method: ".$verb."\n";
 
   switch($verb){
     case 'GET':
@@ -34,8 +36,6 @@
       break;
     default:
       // do stuff
-      header("HTTP 1.1 501 Not Implemented");
-      header("Cache-Control: private, no-store, no-cache");
       print "Unsupported method: ".$verb."\n";
       break;
   }
