@@ -40,4 +40,6 @@
       print "Unsupported method: ".$verb."\n";
       break;
   }
+
+  print "Got here."
 ?>
