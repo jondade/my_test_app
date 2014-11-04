@@ -21,11 +21,11 @@
   print "Method: ".$verb."\n";
 
   switch($verb){
-    case 'GET':
+    case GET:
       // do stuff
       do_read();
       break;
-    case 'PUT':
+    case PUT:
       // do stuff
       break;
     case 'POST':
