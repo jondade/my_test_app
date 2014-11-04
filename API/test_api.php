@@ -21,14 +21,14 @@
   print "Method: ".$verb."\n";
 
   switch($verb){
-    case GET:
+    case "GET":
       // do stuff
       do_read();
       break;
-    case PUT:
+    case "PUT":
       // do stuff
       break;
-    case 'POST':
+    case "POST":
       // do stuff
       break;
     case "DELETE":
@@ -39,3 +39,4 @@
       print "Unsupported method: ".$verb."\n";
       break;
   }
+?>
