@@ -16,7 +16,7 @@
 
   };
 
-  verb = $_SERVER['HTTP_X_METHOD'];
+  $verb = $_SERVER['HTTP_X_METHOD'];
 
   switch(verb){
     case 'GET':
