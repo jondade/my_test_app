@@ -16,7 +16,7 @@
 
   };
 
-  $verb = $_SERVER['HTTP_X_HTTP_METHOD'];
+  $verb = $_SERVER['REQUEST_METHOD'];
 
   print "Method: ".$verb."\n";
 
