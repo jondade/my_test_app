@@ -18,7 +18,7 @@
 
   $verb = $_SERVER['HTTP_X_METHOD'];
 
-  switch(verb){
+  switch($verb){
     case 'GET':
       // do stuff
       do_read();
