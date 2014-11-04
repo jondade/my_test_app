@@ -1,7 +1,7 @@
 <?php
   
   function do_read(){
-
+    print "{stuff:\"complete\"}";
   };
 
   function do_update(){
@@ -21,6 +21,7 @@
   switch(verb){
     case 'GET':
       // do stuff
+      do_read();
       break;
     case 'PUT':
       // do stuff
